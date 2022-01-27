@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Frontpage should be shown 1`] = `"<div data-testid=\\"status\\"><h1>Welcome to the most simplified quiz ever!!</h1><h2>you have answered  /  correct</h2><a href=\\"/showQuestion\\"><button>ny quiz</button></a></div>"`;
+
+exports[`Frontpage should make all component to snapshot 1`] = `"<div data-testid=\\"status\\"><h1>Welcome to the most simplified quiz ever!!</h1><h2>you have answered  /  correct</h2><a href=\\"/showQuestion\\"><button>ny quiz</button></a></div>"`;
