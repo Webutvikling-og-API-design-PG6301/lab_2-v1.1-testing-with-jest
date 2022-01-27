@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel index.html",
     "test": "jest",
-    "verify": "jest --coverage && coveralls < coverage/lcov.info"
+    "verify": "jest --collectCoverage"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,6 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "babel-jest": "^27.4.6",
-    "coveralls": "^3.1.1",
     "jest": "^27.4.7",
     "parcel": "^2.2.1",
     "parcel-bundler": "^1.12.5"
