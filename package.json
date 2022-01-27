@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel index.html",
     "test": "jest",
-    "verify": "jest --collectCoverage &&  npm run test:coverage",
+    "verify": "jest --coverage && coveralls < coverage/lcov.info",
     "test:coverage": "jest --coverage"
   },
   "repository": {
