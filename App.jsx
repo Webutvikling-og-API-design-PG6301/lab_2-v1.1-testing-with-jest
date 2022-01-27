@@ -3,7 +3,7 @@ import {Link, Route, Routes, useNavigate} from "react-router-dom";
 import {randomQuestion, isCorrectAnswer} from "./questions";
 
 export function FrontPage({correctAnswer, questionsAnswered}) {
-    return <div>
+    return <div data-testid={"status"}>
             <h1>Welcome to the most simplified quiz ever!!</h1>
             <h2>you have answered {correctAnswer} / {questionsAnswered} correct</h2>
        <Link to={"/showQuestion"}>
